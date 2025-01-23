@@ -1,0 +1,51 @@
+*{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#container {
+    height:400px;
+    width:300px;
+    background-color: teal;
+    border:1.5px black;
+    border-style: solid;
+    display:flex;
+    flex-direction: column;
+}
+
+.display {
+    height:40px;
+    width:auto;
+    color: white;
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    border: .5px rgb(255, 255, 255);
+    border-style: solid;
+}
+
+.rows{
+    height:60px;
+    width:auto;
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#allclear,#posneg,#remainder,#add,#exe{
+    background-color: rgb(195, 143, 224);
+}
+
+#clear{
+    background-color: rgb(246, 114, 114);
+}
+
+button {
+    height:50px;
+    width:50px;
+    background-color: orange;
+    font-size: 1.5rem;
+    margin:10px;
+    align-self: center;
+}
