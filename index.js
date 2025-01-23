@@ -1,7 +1,7 @@
 //Pseudocode
 // Make a on-screen caluculator
 //Math Functions: Add, Subtract, Multiply, Divide
-// Math function example: 3 + 5; Create a variable for each: (a) (+) (b) 
+//Math function example: 3 + 5; Create a variable for each: (a) (+) (b) 
 //Create an operate function that takes the operator and two numbers and then
 //calls one of the above functions on the numbers.
 
@@ -17,4 +17,25 @@
 //!Round long decimels to avoid errors
 //! (=) shouldn't process without an evaluation
 //!Pressing clear should wipe out the screen
+let num1= 0;
+let num2= 0;
 
+function add(a, b) {
+    return a + b;
+}
+
+function subtract(a, b) {
+    return a - b;
+}
+
+function multiply(a, b) {
+    return a * b;
+}
+
+function divide(a, b) {
+    return a / b;
+}
+
+
+
+let diplay= document.getElementById("display");
